@@ -1,4 +1,7 @@
 # WebDriverIO
+#### Documentation:-
+https://webdriver.io/docs/gettingstarted.html
+
 #### Installation of WebDriverIo
   - npm init
   - npm install --save-dev @wdio/cli
