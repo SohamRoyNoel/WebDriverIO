@@ -42,7 +42,7 @@ $ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/registe
 ```
 #### Run A Test Case
 ```
-npm run testD
+npm run test
 ```
 
 #### Assertion Methods
