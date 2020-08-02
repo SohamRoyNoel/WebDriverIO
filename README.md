@@ -30,3 +30,7 @@
 ```
 $ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register
 ```
+#### Run A Test Case
+```
+npm run testD
+```
