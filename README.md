@@ -10,6 +10,7 @@ https://webdriver.io/docs/gettingstarted.html
 #### Installation of WebDriverIo
   - npm init
   - npm install --save-dev @wdio/cli
+  - npx wdio config
 #### Choises
 ```
 ? Where is your automation backend located? On my local machine
