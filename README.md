@@ -2,6 +2,11 @@
 #### Documentation:-
 https://webdriver.io/docs/gettingstarted.html
 
+#### Practice Resources
+  - http://www.example.com/
+  - https://devexpress.github.io/testcafe/example/
+  - http://zero.webappsecurity.com/index.html
+
 #### Installation of WebDriverIo
   - npm init
   - npm install --save-dev @wdio/cli
