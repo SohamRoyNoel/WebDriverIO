@@ -33,6 +33,7 @@ https://webdriver.io/docs/gettingstarted.html
  ```
  ```
  // Default Running port
+ reporters: ['spec'],
  port: 4444,
  ```
 #### Installing Babel
