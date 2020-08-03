@@ -40,6 +40,23 @@ https://webdriver.io/docs/gettingstarted.html
 ```
 $ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register
 ```
+#### Babel Configuration file creation
+  - Create a file called ```babel.config.js```
+  - Copy the below content: this resolves Babel configuration issue
+  ```
+  module.exports = {
+    presets: [
+        [
+            '@babel/preset-env',
+            {
+                targets: {
+                    node: 12,
+                },
+            },
+        ],
+    ],
+  }
+  ```
 #### Run A Test Case
 ```
 npm run test
