@@ -72,5 +72,5 @@ npm run test
   - Follow Assertion Project
   
 #### Reporting
-  - mochaawesome: https://github.com/adamgruber/mochawesome
+  - mochawesome: https://github.com/adamgruber/mochawesome
   
