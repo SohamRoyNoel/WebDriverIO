@@ -57,6 +57,12 @@ $ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/registe
     ],
   }
   ```
+#### Setting wdio on package.json 
+```
+"scripts": {
+    "test": "wdio wdio.conf.js"
+  }
+```
 #### Run A Test Case
 ```
 npm run test
