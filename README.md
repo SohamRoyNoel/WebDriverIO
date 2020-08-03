@@ -71,6 +71,33 @@ npm run test
 #### Assertion Methods
   - Follow Assertion Project
   
-#### Reporting
-  - mochawesome: https://github.com/adamgruber/mochawesome
+# Reporting
+## mochawesome 
+  - gitUrl: https://github.com/adamgruber/mochawesome
+  - WebdriverIO installation guide: https://webdriver.io/docs/wdio-mochawesome-reporter.html
+#### installation steps:
+  - Install mochawesome
+  ```
+  npm install wdio-mochawesome-reporter --save-dev
+  ```
+  - Update ```wdio.conf.js``` file:
+  ```
+  "reporters":[
+      "spec",
+      [
+         "mochawesome",
+         {
+            "outputDir":"./Results",
+            "outputFileFormat":"function(opts)"{
+               "return"               "`results-${opts.cid}.${opts.capabilities}.json`"
+            }
+         }
+      ]
+   ],
+   "port":4444
+   ```
+   - Run ```npm run test``` & it will generate a jsonFile on ```Resualts``` folder
+  
+
+
   
