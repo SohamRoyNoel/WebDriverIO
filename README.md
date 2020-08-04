@@ -114,5 +114,14 @@ npm run test
  #### allure report screenshot: (used the smae project as before)
  ![github-small](https://github.com/SohamRoyNoel/WebDriverIO/blob/master/allure-report/img/OverviewOfAllure.PNG?raw=true)
 
-
+#### Sharing ALLURE Report
+it is tough to share allure report, coz it is hosted on local system; its good idea to use [netify.com](https://www.netlify.com/), a cdn provider, to share your report.
+  - simply login/signup.
+  - drag and drop the ```allure-report``` folder.
   
+  | Id | Password |
+  | --- | --- |
+  | noelleroy720@gmail.com | Github's password |
+
+#### Demo Report: [Sample Report](https://5f290b35705776f51b7942bd--nostalgic-darwin-b0bd27.netlify.app/)
+
