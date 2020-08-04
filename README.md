@@ -86,7 +86,7 @@ npm run test
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true,
     }]],
-   "port":4444
+   "port":4444,
    ```
    - Install allure cli tools
    ```
