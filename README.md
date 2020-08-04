@@ -72,7 +72,7 @@ npm run test
   - Follow Assertion Project
   
 # Reporting
-#### allure report installation steps:
+#### <img src="https://img.icons8.com/cotton/25/000000/test-tube-1.png"/> allure report installation steps:
   - Install allure
   ```
   npm install @wdio/allure-reporter --save-dev
@@ -125,7 +125,7 @@ it is tough to share allure report, coz it is hosted on local system; its good i
 
 #### Demo Report: [Sample Report](https://5f290b35705776f51b7942bd--nostalgic-darwin-b0bd27.netlify.app/)
 
-#### Video-Report installation with allure reports steps:
+#### <img src="https://img.icons8.com/cotton/25/000000/test-tube-1.png"/>Video-Report installation with allure reports steps:
   - install video-reporter
   ```
   npm install wdio-video-reporter
