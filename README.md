@@ -111,6 +111,8 @@ npm run test
    ```
  #### allure troubleshooting:
   - if there is error just remove both ```allure-results``` & ```allure-report``` folder and re-run the test case and generate allure report.
+ #### allure report screenshot: (used the smae project as before)
+ ![github-small](https://github.com/SohamRoyNoel/WebDriverIO/blob/master/allure-report/img/OverviewOfAllure.PNG?raw=true)
 
 
   
