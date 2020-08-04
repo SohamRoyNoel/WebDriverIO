@@ -124,7 +124,7 @@ it is tough to share allure report, coz it is hosted on local system; its good i
   | noelleroy720@gmail.com | Github's password |
 
 #### Demo Report: [Sample Report](https://5f290b35705776f51b7942bd--nostalgic-darwin-b0bd27.netlify.app/)
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### <img src="https://img.icons8.com/ultraviolet/25/000000/test-tube.png"/> Video-Report installation with allure reports steps:
   - install video-reporter
   ```
