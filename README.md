@@ -75,7 +75,7 @@ npm run test
 #### allure report installation steps:
   - Install allure
   ```
-  npm install @wdio/allure-report --save-dev
+  npm install @wdio/allure-reporter --save-dev
   ```
   after the process verify if package json have ```"@wdio/allure-reporter": "^6.3.6",``` under ```devDependencies``` & ```dependencies``` has ```"wdio-mochawesome-reporter": "^4.0.0"```
   - Update ```wdio.conf.js``` file:
