@@ -161,7 +161,7 @@ it is tough to share allure report, coz it is hosted on local system; its good i
   ```
 ![github-small](https://github.com/SohamRoyNoel/WebDriverIO/blob/master/allure-report/img/VideoAllureReporter.PNG?raw=true)
 
-## WebdriverIo-Cucumber
+# WebdriverIo-Cucumber
   - select ```cucumber``` instead of ```mocha```
   #### verify @ wdio.conf.js: ```framework: 'cucumber',```
   - Create 2 Directories on the Root
