@@ -109,7 +109,8 @@ npm run test
     2020-08-04 11:44:56.030:INFO::main: Logging initialized @242ms to org.eclipse.jetty.util.log.StdErrLog
     Server started at <http://192.168.0.104:54047/>. Press <Ctrl+C> to exit
    ```
-  
+ #### allure troubleshooting:
+  - if there is error just remove both ```allure-results``` & ```allure-report``` folder and re-run the test case and generate allure report.
 
 
   
