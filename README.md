@@ -74,6 +74,7 @@ npm run test
   
 # Reporting
 #### <img src="https://img.icons8.com/ultraviolet/25/000000/test-tube.png"/> allure report installation steps:
+#### (Same Works for Cucumber also)
   - Install allure
   ```
   npm install @wdio/allure-reporter --save-dev
