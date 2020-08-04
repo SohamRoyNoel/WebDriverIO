@@ -69,6 +69,7 @@ npm run test
 ```
 
 #### Assertion Methods
+  - Link To Docs: [WebdriverIO Assertion Methods](https://webdriver.io/docs/api/expect.html)
   - Follow Assertion Project
   
 # Reporting
