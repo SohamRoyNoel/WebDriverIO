@@ -125,3 +125,37 @@ it is tough to share allure report, coz it is hosted on local system; its good i
 
 #### Demo Report: [Sample Report](https://5f290b35705776f51b7942bd--nostalgic-darwin-b0bd27.netlify.app/)
 
+#### Video-Report installation with allure reports steps:
+  - install video-reporter
+  ```
+  npm install wdio-video-reporter
+  ```
+  - import video-reporter in ```wdio.conf.js``` file
+  ```
+  const video = require('wdio-video-reporter');
+  ```
+  - Integration with allure
+  ```
+  reporters: ['spec'],
+    reporters: [
+        [video, {
+            saveAllVideos: false,       // If true, also saves videos for successful test cases
+            videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        }],
+        ['allure',{
+        outputDir: 'allure-results', // Path where base result will be generated
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+   }]],
+   "port":4444,
+  ```
+  - ```saveAllVideos``` Set to true to save videos for passing tests. ```Default: false```
+  - run call test cases
+  ```
+  npm run test
+  ```
+  - Start alure server
+  ```
+  allure generate && allure open
+  ```
+
