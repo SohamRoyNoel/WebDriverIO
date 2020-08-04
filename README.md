@@ -158,4 +158,4 @@ it is tough to share allure report, coz it is hosted on local system; its good i
   ```
   allure generate && allure open
   ```
-
+![github-small](https://github.com/SohamRoyNoel/WebDriverIO/blob/master/allure-report/img/VideoAllureReporter.PNG?raw=true)
