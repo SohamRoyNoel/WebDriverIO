@@ -72,31 +72,43 @@ npm run test
   - Follow Assertion Project
   
 # Reporting
-## mochawesome 
-  - gitUrl: https://github.com/adamgruber/mochawesome
-  - WebdriverIO installation guide: https://webdriver.io/docs/wdio-mochawesome-reporter.html
-#### installation steps:
-  - Install mochawesome
+#### allure report installation steps:
+  - Install allure
   ```
-  npm install wdio-mochawesome-reporter --save-dev
+  npm install @wdio/allure-report --save-dev
   ```
+  after the process verify if package json have ```"@wdio/allure-reporter": "^6.3.6",``` under ```devDependencies``` & ```dependencies``` has ```"wdio-mochawesome-reporter": "^4.0.0"```
   - Update ```wdio.conf.js``` file:
   ```
-  "reporters":[
-      "spec",
-      [
-         "mochawesome",
-         {
-            "outputDir":"./Results",
-            "outputFileFormat":"function(opts)"{
-               "return"               "`results-${opts.cid}.${opts.capabilities}.json`"
-            }
-         }
-      ]
-   ],
+  reporters: ['spec'],
+    reporters: [['allure',{
+        outputDir: 'allure-results', // Path where base result will be generated
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
    "port":4444
    ```
-   - Run ```npm run test``` & it will generate a jsonFile on ```Resualts``` folder
+   - Install allure cli tools
+   ```
+   npm install -g allure-commandline --save-dev
+   ```
+   - Run you test Cases
+   ```
+   npm run test
+   ```
+   - Run with allure
+   ```
+   allure generate && allure open
+   ```
+   this will be hosted on the following port
+   ```
+    soham@DESKTOP-LHLA0PA MINGW64 /d/WebDriverIO/Reporting
+    $ allure generate && allure open
+    Report successfully generated to allure-report
+    Starting web server...
+    2020-08-04 11:44:56.030:INFO::main: Logging initialized @242ms to org.eclipse.jetty.util.log.StdErrLog
+    Server started at <http://192.168.0.104:54047/>. Press <Ctrl+C> to exit
+   ```
   
 
 
